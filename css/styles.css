@@ -1,0 +1,116 @@
+body{
+    background-color: #d3d3d3;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.page{
+    width: 50em;
+    border: solid 2px black;
+    margin: 1rem auto;
+    background-color: white;
+    padding: 1rem;
+}
+header hr{
+    border: solid 1px #8b0000;
+    margin-top: 1rem;
+}
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+main h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1em 0;
+}
+
+h3{
+    color: #8b0000;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+h1, h2, h3{
+    font-family: 'Oswald';
+}
+h1, .box-noir{
+    display: inline;
+}
+.box-noir{
+    font-size: 0.9em;
+    color: white;
+    background-color: black;
+    padding: 6px 14px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+main hr{
+    border: solid 1px #333333;
+}
+main{
+    background-color: #eeeeee;
+    width: 40rem;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+strong{
+    font-weight: bold;
+}
+.mini-logo{
+    width: 6rem;
+}
+main p{
+    margin: 1rem auto;
+    text-align: start;
+    line-height: 1.2rem;
+}
+.italic{
+    font-style: italic;
+    text-indent: 1.5rem;
+    font-size: 12px;
+    line-height: 1rem;
+    text-align: center;
+}
+footer{
+   background-color: #eeeeee;
+   padding: 2rem 0 5rem 0;  
+}
+ul{
+    margin: 1rem 0;
+}
+li{
+    background-color: #eeeeee;
+    width: 40rem;
+    margin: 0.25rem auto;
+    padding: 0.3rem 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #8b0000;
+    border-radius: 1em;
+}
+li:hover{
+    background-color: #8b0000;
+    color: white;
+}
+.img1, .img2, .img3{
+    border: solid 2px #eeeeee ;
+    width: 30%;
+    margin: 1rem auto ;
+    padding: 1rem; 
+}
+.image1, .image2, .image3{
+    width: 10em;
+    
+}
+.img-h3{
+    padding: 1rem 0;
+}
+/*rend toute la bulle cliquable*/
+a{
+    display: block;
+}
