@@ -82,12 +82,17 @@ footer{
 }
 ul{
     margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 li{
     background-color: #eeeeee;
-    width: 40rem;
-    margin: 0.25rem auto;
-    padding: 0.3rem 0;
+    /*width: 40rem;*/
+    /*margin: 0.25rem auto;
+    padding: 0.3rem 0;*/
+    margin: 0.25rem 0.5em;
+    padding: 0.5em;
     text-transform: uppercase;
     font-size: 14px;
     color: #8b0000;
@@ -96,6 +101,7 @@ li{
 li:hover{
     background-color: #8b0000;
     color: white;
+    transition: 0.5s;
 }
 .img1, .img2, .img3{
     border: solid 2px #eeeeee ;
@@ -113,4 +119,8 @@ li:hover{
 /*rend toute la bulle cliquable*/
 a{
     display: block;
+}
+
+.flex{
+    display: flex;
 }
